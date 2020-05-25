@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "174801316209",
+    "firebase_url": "https://ganogano-a4e0a.firebaseio.com",
+    "project_id": "ganogano-a4e0a",
+    "storage_bucket": "ganogano-a4e0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174801316209:android:12e82d6b932ab74bbb2ed0",
+        "android_client_info": {
+          "package_name": "kr.ac.jbnu.se.mobile.ganogano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174801316209-dnmdg6datvfdjvcp903421qfck8slq9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfoFPYsbZoab755Ul6UBqscHrlYEgxEPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174801316209-dnmdg6datvfdjvcp903421qfck8slq9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
