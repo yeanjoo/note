@@ -25,6 +25,13 @@
             android:label="sign_up"
             android:screenOrientation="fullSensor">
         </activity>
+        <activity
+            android:name=".Settings"
+            android:label="setting"
+            android:screenOrientation="fullSensor"/>
+        <service android:name=".MusicService"
+            android:enabled="true"/>
+
     </application>
 
 
