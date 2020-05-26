@@ -8,8 +8,9 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
+// TODO : 간호술기 디테일뷰 출력하는 액티비티
 
-public class NoteThridFragment extends Fragment {
+public class NoteThirdFragment extends Fragment {
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
@@ -25,7 +26,7 @@ public class NoteThridFragment extends Fragment {
         view.findViewById(R.id.saveBtn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(NoteThridFragment.this)
+                NavHostFragment.findNavController(NoteThirdFragment.this)
                         .navigate(R.id.action_SecondFragment_to_FirstFragment);
             }
         });

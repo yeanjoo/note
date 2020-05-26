@@ -1,22 +1,22 @@
 package kr.ac.jbnu.se.mobile.ganogano;
 
 public class Note {
-    int image;
+    String title;
     String tv1;
     String tv2;
 
-    public Note(int image, String tv1, String tv2){
-        this.image = image;
+    public Note(String title, String tv1, String tv2){
+        this.title = title;
         this.tv1 = tv1;
         this.tv2 = tv2;
     }
 
-    public int getImage() {
-        return image;
+    public String getTitle() {
+        return title;
     }
 
-    public void setImage(int image) {
-        this.image = image;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getTv1() {
