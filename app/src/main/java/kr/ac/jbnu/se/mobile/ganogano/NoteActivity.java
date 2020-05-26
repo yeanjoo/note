@@ -5,8 +5,6 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -35,6 +33,8 @@ public class NoteActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        //-> fragment 로 옮김
 
  /*       //데이터삽입
         for (int i=0; i < 20; i++){
